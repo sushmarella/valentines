@@ -11,8 +11,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'valentine-red': '#ff6384',
+        'valentine-pink': '#ffcad4',
+        'valentine-dark': '#3d2c3c'
+      },
+      fontFamily: {
+        'body': ['"Nunito"', 'sans-serif'],
       },
     },
   },
   plugins: [],
-} satisfies Config;
+} as Config;
